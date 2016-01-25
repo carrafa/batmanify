@@ -6,11 +6,12 @@ $.fn.batmanify = function(options) {
     imageSource: 'images/batmanify.png'
   }, options);
 
-  $(this).click(function(e) {
+  this.click(function(e) {
     e.preventDefault();
-    var link = this.href
+    $('html').css('cursor', 'none');
+    var link = this.href;
     batmanifyRotate(settings.rotationSpeed, settings.zoomSpeed, link);
-  })
+  });
 
   function batmanifyRotate(rotationSpeed, zoomSpeed, link) {
     var deg = 0;
@@ -51,8 +52,8 @@ $.fn.batmanify = function(options) {
       top: 0,
       width: '100%',
       transform: "scale(0)"
-    })
+    });
     $('html').append($logo);
   }
 
-}
+};
