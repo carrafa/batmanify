@@ -2,7 +2,7 @@
 
 a tiny jQuery plugin to create sweet batman transitions on your links.
 
-![batmanify!](screenshot.gif)
+<img src="screenshot.gif" width="100%">
 
 ## configuration
 
