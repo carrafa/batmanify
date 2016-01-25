@@ -55,9 +55,9 @@
       var $logo = $('<img>').attr('src', settings.imageSource).addClass(
         'batmanify-logo');
       $logo.css({
-        position: 'fixed',
-        top: settings.topOffset,
-        width: '100%',
+        'position': 'fixed',
+        'top': settings.topOffset,
+        'width': '100%',
         "transform": "scale(0)",
         "-webkit-transform": "scale(0)",
         "-ms-transform": "scale(0)"

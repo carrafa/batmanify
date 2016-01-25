@@ -15,9 +15,9 @@ __imageSource__: a url.  default is batman's.  use your own???
 #### usage
 ```
 $('.my-sweet-link').batmanify({
-    rotationSpeed: 15,
-    zoomSpeed: 0.02,
-    imageSource: 'images/batmanify.png'
+    rotationSpeed: 15,                            // optional
+    zoomSpeed: 0.02,                              // optional
+    imageSource: 'images/batmanify.png'           // optional
   });
 
 ```
