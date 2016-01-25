@@ -1,0 +1,3 @@
+## BATMANIFY
+
+a jQuery plugin 
