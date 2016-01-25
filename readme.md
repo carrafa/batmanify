@@ -8,7 +8,7 @@ a tiny jQuery plugin to create sweet batman transitions on your links.
 
 __rotationSpeed__:  in degrees per 10 milliseconds.  default is 15.
 
-__gzoomSpeed__: in a percentage increase/decrease per 10 milliseconds.  default is 0.02
+__zoomSpeed__: in a percentage increase/decrease per 10 milliseconds.  default is 0.02
 
 __imageSource__: a url.  default is batman's.  use your own???
 
@@ -21,5 +21,6 @@ $('.my-sweet-link').batmanify({
   });
 
 ```
+
 
 or, just add class "batmanify" to your link
