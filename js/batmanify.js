@@ -57,3 +57,7 @@ $.fn.batmanify = function(options) {
   }
 
 };
+
+$(function() {
+  $('.batmanify').batmanify();
+});
