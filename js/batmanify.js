@@ -36,10 +36,14 @@ $.fn.batmanify = function(options) {
       }
       console.log(z);
       $('body').css({
-        transform: "rotateZ(" + deg + "deg)"
+        "transform": "rotateZ(" + deg + "deg)",
+        "-webkit-transform": "rotateZ(" + deg + "deg)",
+        "-ms-transform": "rotateZ(" + deg + "deg)"
       });
       $('.logo').css({
-        transform: "scale(" + z + ")"
+        "transform": "scale(" + z + ")",
+        "-webkit-transform": "scale(" + z + ")",
+        "-ms-transform": "scale(" + z + ")"
       });
     }, 10);
   }
@@ -51,7 +55,9 @@ $.fn.batmanify = function(options) {
       position: 'fixed',
       top: 0,
       width: '100%',
-      transform: "scale(0)"
+      "transform": "scale(0)",
+      "-webkit-transform": "scale(0)",
+      "-ms-transform": "scale(0)"
     });
     $('html').append($logo);
   }
