@@ -14,9 +14,9 @@ $.fn.batmanify = function(options) {
   });
 
   function batmanifyRotate(rotationSpeed, zoomSpeed, link) {
+    var peak = false;
     var deg = 0;
     var z = 0;
-    var peak = false;
     var logoScale = 0;
     batmanifyLogo();
     var intervalId = window.setInterval(function() {
@@ -40,7 +40,7 @@ $.fn.batmanify = function(options) {
         "-webkit-transform": "rotateZ(" + deg + "deg)",
         "-ms-transform": "rotateZ(" + deg + "deg)"
       });
-      $('.logo').css({
+      $('.batmanify-logo').css({
         "transform": "scale(" + z + ")",
         "-webkit-transform": "scale(" + z + ")",
         "-ms-transform": "scale(" + z + ")"
@@ -50,7 +50,7 @@ $.fn.batmanify = function(options) {
 
   function batmanifyLogo() {
     var $logo = $('<img>').attr('src', settings.imageSource).addClass(
-      'logo');
+      'batmanify-logo');
     $logo.css({
       position: 'fixed',
       top: 0,
