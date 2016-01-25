@@ -3,7 +3,8 @@ $.fn.batmanify = function(options) {
   var settings = $.extend({
     rotationSpeed: 15,
     zoomSpeed: 0.02,
-    imageSource: 'images/batmanify.png'
+    imageSource: 'images/batmanify.png',
+    topOffset: 0,
   }, options);
 
   this.click(function(e) {
@@ -53,7 +54,7 @@ $.fn.batmanify = function(options) {
       'batmanify-logo');
     $logo.css({
       position: 'fixed',
-      top: 0,
+      top: settings.topOffset,
       width: '100%',
       "transform": "scale(0)",
       "-webkit-transform": "scale(0)",
