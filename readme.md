@@ -6,11 +6,11 @@ a tiny jQuery plugin to create sweet batman transitions on your links.
 
 ## settings
 
-rotationSpeed:  in degrees per 10 milliseconds.  default is 15.
+__rotationSpeed__:  in degrees per 10 milliseconds.  default is 15.
 
-zoomSpeed: in a percentage increase/decrease per 10 milliseconds.  default is 0.02
+__zoomSpeed__: in a percentage increase/decrease per 10 milliseconds.  default is 0.02
 
-imageSource: a url.  default is batman's.  use your own???
+__imageSource__: a url.  default is batman's.  use your own???
 
 #### usage
 ```
