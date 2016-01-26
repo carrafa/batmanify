@@ -37,7 +37,6 @@
           clearInterval(intervalId);
           window.location.replace(link);
         }
-        console.log(z);
         $('body').css({
           "transform": "rotateZ(" + deg + "deg)",
           "-webkit-transform": "rotateZ(" + deg + "deg)",
