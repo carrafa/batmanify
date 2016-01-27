@@ -19,8 +19,8 @@ __topOffset__: sets the top position of the image, may have to adjust based on y
 $('.my-sweet-link').batmanify({
     rotationSpeed: 15,                            // optional
     zoomSpeed: 0.02,                              // optional
-    topOffset: 0,                                 // optional
-    imageSource: 'images/batmanify.png'           // optional
+    imageSource: 'images/batmanify.png',          // optional
+    topOffset: 0                                 // optional
   });
 
 ```
