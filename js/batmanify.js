@@ -6,7 +6,7 @@
       rotationSpeed: 15,
       zoomSpeed: 0.02,
       imageSource: 'images/batmanify.png',
-      topOffset: 0,
+      topOffset: 0
     }, options);
 
     this.click(function(e) {

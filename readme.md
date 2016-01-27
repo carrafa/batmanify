@@ -12,11 +12,14 @@ __zoomSpeed__: in a percentage increase/decrease per 10 milliseconds.  default i
 
 __imageSource__: a url.  default is batman's.  use your own???
 
+__topOffset__: sets the top position of the image, may have to adjust based on your custom image or implementation
+
 #### usage
 ```
 $('.my-sweet-link').batmanify({
     rotationSpeed: 15,                            // optional
     zoomSpeed: 0.02,                              // optional
+    topOffset: 0,                                 // optional
     imageSource: 'images/batmanify.png'           // optional
   });
 
