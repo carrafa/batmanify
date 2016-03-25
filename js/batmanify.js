@@ -35,7 +35,7 @@
         }
         if (peak && (z <= 0)) {
           clearInterval(intervalId);
-          window.location.replace(link);
+          window.location.assign(link);
         }
         $('body').css({
           "transform": "rotateZ(" + deg + "deg)",

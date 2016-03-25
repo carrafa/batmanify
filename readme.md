@@ -20,7 +20,7 @@ $('.my-sweet-link').batmanify({
     rotationSpeed: 15,                            // optional
     zoomSpeed: 0.02,                              // optional
     imageSource: 'images/batmanify.png',          // optional
-    topOffset: 0                                 // optional
+    topOffset: 0                                  // optional
   });
 
 ```
